@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: aquamarine;
+}
+
+.container {
+    width: 50%;
+    border: 1px solid red;
+    margin: auto auto;
+}
+
+.flex {
+    display: flex;
+
+}
+
+.mainer {
+    background-color: white;
+    flex: 1 1 70%;
+
+
+
+}
+
+.asider {
+    background-color: grey;
+    flex: 1 1 30%;
+    padding: 3% 3%;
+}
+
+.title {
+    text-align: center;
+}
+
+.ervaring {
+    display: flex;
+    justify-content: space-between;
+}
+
+.jaar {
+    flex: 1 1 33%;
+    border: 1px solid red;
+}
+
+.werk {
+    flex: 1 1 33%;
+    border: 1px solid red;
+}
+
+.plaats {
+    flex: 1 1 33%;
+    border: 1px solid red;
+}
+
+h2 {
+    text-align: left;
+}
+
+ul {
+    list-style-position: inside
+}
+
+ul.taken {
+    /* text-align: center; */
+    padding-left: 10%;
+}
+
+.passfoto {
+    background-image: url("img/");
+    width: 150px;
+    height: 150px;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10%
+}
