@@ -27,6 +27,7 @@ body {
 }
 
 .asider {
+    justify-content: center;
     background-color: grey;
     flex: 1 1 30%;
     padding: 3% 3%;
@@ -70,7 +71,9 @@ ul.taken {
 }
 
 .passfoto {
-    background-image: url("img/");
+
+    background-image: url('http://placekitten.com/g/200/300');
+    border-radius: 10%;
     width: 150px;
     height: 150px;
     margin-top: 10%;
